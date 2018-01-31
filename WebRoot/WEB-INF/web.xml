@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>logoutDao</servlet-name>
+    <servlet-class>com.dao.logoutDao</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>loginDao</servlet-name>
+    <servlet-class>com.dao.loginDao</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>creatVolunteerDao</servlet-name>
+    <servlet-class>com.dao.creatVolunteerDao</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>volunteerListDao</servlet-name>
+    <servlet-class>com.dao.volunteerListDao</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>creatManagerDao</servlet-name>
+    <servlet-class>com.dao.creatManagerDao</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>creatProgramDao</servlet-name>
+    <servlet-class>com.dao.creatProgramDao</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>deleteServlet</servlet-name>
+    <servlet-class>com.dao.deleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addServlet</servlet-name>
+    <servlet-class>com.dao.addServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SendEmail</servlet-name>
+    <servlet-class>com.dao.SendEmail</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>searchServlet</servlet-name>
+    <servlet-class>com.dao.searchServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>cancelServlet</servlet-name>
+    <servlet-class>com.dao.cancelServlet</servlet-class>
+  </servlet>
+   <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>searchRequest</servlet-name>
+    <servlet-class>com.dao.searchRequest</servlet-class>
+  </servlet>
+  
+   <servlet-mapping>
+    <servlet-name>searchRequest</servlet-name>
+    <url-pattern>/searchRequest.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>cancelServlet</servlet-name>
+    <url-pattern>/cancelServlet.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>searchServlet</servlet-name>
+    <url-pattern>/search</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SendEmail</servlet-name>
+    <url-pattern>/SendEmail.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>loginDao</servlet-name>
+    <url-pattern>/loginDao.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>logoutDao</servlet-name>
+    <url-pattern>/logoutDao.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>creatVolunteerDao</servlet-name>
+    <url-pattern>/creatVolunteerDao.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>volunteerListDao</servlet-name>
+    <url-pattern>/volunteerListDao.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>creatManagerDao</servlet-name>
+    <url-pattern>/creatManagerDao.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>creatProgramDao</servlet-name>
+    <url-pattern>/creatProgramDao.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deleteServlet</servlet-name>
+    <url-pattern>/src/com.dao/deleteServlet</url-pattern>
+    <url-pattern>/deleteServlet.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addServlet</servlet-name>
+    <url-pattern>/src/com.dao/addServlet</url-pattern>
+    <url-pattern>/addServlet.do</url-pattern>
+  </servlet-mapping>
+</web-app>
